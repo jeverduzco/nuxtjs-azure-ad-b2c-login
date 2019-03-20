@@ -2,8 +2,8 @@
 
 ## Instructions
 
-Changes the following in the msal/msal.js file:
-clientID: Your AD B2C application ID
+Changes the following in the msal/msal.js file: <br />
+clientID: Your AD B2C application ID<br />
 authority: Your Azure AD B2C tenant's authority URL (https://login.microsoftonline.com/tfp/{{your-domain}}.onmicrosoft.com/{{your-user-flow}})
 
 
