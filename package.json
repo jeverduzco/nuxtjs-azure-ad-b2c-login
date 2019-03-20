@@ -1,0 +1,48 @@
+{
+  "name": "jvsoyblog",
+  "version": "1.0.1",
+  "description": "Blog de JesusVerduzco.Soy",
+  "author": "Jesus Verduzco",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "engines": {
+    "node": "10.14.1",
+    "npm": "6.4.1"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "msal": "^0.2.4",
+    "nuxt": "^2.4.0",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-config-standard": ">=12.0.0",
+    "eslint-plugin-import": ">=2.14.0",
+    "eslint-plugin-jest": ">=21.24.1",
+    "eslint-plugin-node": ">=7.0.1",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-promise": ">=4.0.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.14.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
